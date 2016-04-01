@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C609F7A31CAEEFF100E26A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C609F7A21CAEEFF100E26A42 /* AppDelegate.swift */; };
+		C609F7A51CAEEFF100E26A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C609F7A41CAEEFF100E26A42 /* ViewController.swift */; };
+		C609F7A81CAEEFF100E26A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C609F7A61CAEEFF100E26A42 /* Main.storyboard */; };
+		C609F7AA1CAEEFF100E26A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C609F7A91CAEEFF100E26A42 /* Assets.xcassets */; };
+		C609F7AD1CAEEFF100E26A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C609F7AB1CAEEFF100E26A42 /* LaunchScreen.storyboard */; };
+		C609F7B81CAEEFF100E26A42 /* Python_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C609F7B71CAEEFF100E26A42 /* Python_QuizTests.swift */; };
+		C609F7C31CAEEFF100E26A42 /* Python_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C609F7C21CAEEFF100E26A42 /* Python_QuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C609F7B41CAEEFF100E26A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C609F7971CAEEFF100E26A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C609F79E1CAEEFF100E26A42;
+			remoteInfo = "Python Quiz";
+		};
+		C609F7BF1CAEEFF100E26A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C609F7971CAEEFF100E26A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C609F79E1CAEEFF100E26A42;
+			remoteInfo = "Python Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C609F79F1CAEEFF100E26A42 /* Python Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Python Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C609F7A21CAEEFF100E26A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C609F7A41CAEEFF100E26A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C609F7A71CAEEFF100E26A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C609F7A91CAEEFF100E26A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C609F7AC1CAEEFF100E26A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C609F7AE1CAEEFF100E26A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C609F7B31CAEEFF100E26A42 /* Python QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Python QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C609F7B71CAEEFF100E26A42 /* Python_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Python_QuizTests.swift; sourceTree = "<group>"; };
+		C609F7B91CAEEFF100E26A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C609F7BE1CAEEFF100E26A42 /* Python QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Python QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C609F7C21CAEEFF100E26A42 /* Python_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Python_QuizUITests.swift; sourceTree = "<group>"; };
+		C609F7C41CAEEFF100E26A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C609F79C1CAEEFF100E26A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C609F7B01CAEEFF100E26A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C609F7BB1CAEEFF100E26A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C609F7961CAEEFF100E26A42 = {
+			isa = PBXGroup;
+			children = (
+				C609F7A11CAEEFF100E26A42 /* Python Quiz */,
+				C609F7B61CAEEFF100E26A42 /* Python QuizTests */,
+				C609F7C11CAEEFF100E26A42 /* Python QuizUITests */,
+				C609F7A01CAEEFF100E26A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C609F7A01CAEEFF100E26A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C609F79F1CAEEFF100E26A42 /* Python Quiz.app */,
+				C609F7B31CAEEFF100E26A42 /* Python QuizTests.xctest */,
+				C609F7BE1CAEEFF100E26A42 /* Python QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C609F7A11CAEEFF100E26A42 /* Python Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				C609F7A21CAEEFF100E26A42 /* AppDelegate.swift */,
+				C609F7A41CAEEFF100E26A42 /* ViewController.swift */,
+				C609F7A61CAEEFF100E26A42 /* Main.storyboard */,
+				C609F7A91CAEEFF100E26A42 /* Assets.xcassets */,
+				C609F7AB1CAEEFF100E26A42 /* LaunchScreen.storyboard */,
+				C609F7AE1CAEEFF100E26A42 /* Info.plist */,
+			);
+			path = "Python Quiz";
+			sourceTree = "<group>";
+		};
+		C609F7B61CAEEFF100E26A42 /* Python QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				C609F7B71CAEEFF100E26A42 /* Python_QuizTests.swift */,
+				C609F7B91CAEEFF100E26A42 /* Info.plist */,
+			);
+			path = "Python QuizTests";
+			sourceTree = "<group>";
+		};
+		C609F7C11CAEEFF100E26A42 /* Python QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C609F7C21CAEEFF100E26A42 /* Python_QuizUITests.swift */,
+				C609F7C41CAEEFF100E26A42 /* Info.plist */,
+			);
+			path = "Python QuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C609F79E1CAEEFF100E26A42 /* Python Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C609F7C71CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python Quiz" */;
+			buildPhases = (
+				C609F79B1CAEEFF100E26A42 /* Sources */,
+				C609F79C1CAEEFF100E26A42 /* Frameworks */,
+				C609F79D1CAEEFF100E26A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Python Quiz";
+			productName = "Python Quiz";
+			productReference = C609F79F1CAEEFF100E26A42 /* Python Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C609F7B21CAEEFF100E26A42 /* Python QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C609F7CA1CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python QuizTests" */;
+			buildPhases = (
+				C609F7AF1CAEEFF100E26A42 /* Sources */,
+				C609F7B01CAEEFF100E26A42 /* Frameworks */,
+				C609F7B11CAEEFF100E26A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C609F7B51CAEEFF100E26A42 /* PBXTargetDependency */,
+			);
+			name = "Python QuizTests";
+			productName = "Python QuizTests";
+			productReference = C609F7B31CAEEFF100E26A42 /* Python QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C609F7BD1CAEEFF100E26A42 /* Python QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C609F7CD1CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python QuizUITests" */;
+			buildPhases = (
+				C609F7BA1CAEEFF100E26A42 /* Sources */,
+				C609F7BB1CAEEFF100E26A42 /* Frameworks */,
+				C609F7BC1CAEEFF100E26A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C609F7C01CAEEFF100E26A42 /* PBXTargetDependency */,
+			);
+			name = "Python QuizUITests";
+			productName = "Python QuizUITests";
+			productReference = C609F7BE1CAEEFF100E26A42 /* Python QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C609F7971CAEEFF100E26A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hlt04;
+				TargetAttributes = {
+					C609F79E1CAEEFF100E26A42 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CYJBSZC7FS;
+					};
+					C609F7B21CAEEFF100E26A42 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CYJBSZC7FS;
+						TestTargetID = C609F79E1CAEEFF100E26A42;
+					};
+					C609F7BD1CAEEFF100E26A42 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CYJBSZC7FS;
+						TestTargetID = C609F79E1CAEEFF100E26A42;
+					};
+				};
+			};
+			buildConfigurationList = C609F79A1CAEEFF100E26A42 /* Build configuration list for PBXProject "Python Quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C609F7961CAEEFF100E26A42;
+			productRefGroup = C609F7A01CAEEFF100E26A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C609F79E1CAEEFF100E26A42 /* Python Quiz */,
+				C609F7B21CAEEFF100E26A42 /* Python QuizTests */,
+				C609F7BD1CAEEFF100E26A42 /* Python QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C609F79D1CAEEFF100E26A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C609F7AD1CAEEFF100E26A42 /* LaunchScreen.storyboard in Resources */,
+				C609F7AA1CAEEFF100E26A42 /* Assets.xcassets in Resources */,
+				C609F7A81CAEEFF100E26A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C609F7B11CAEEFF100E26A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C609F7BC1CAEEFF100E26A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C609F79B1CAEEFF100E26A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C609F7A51CAEEFF100E26A42 /* ViewController.swift in Sources */,
+				C609F7A31CAEEFF100E26A42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C609F7AF1CAEEFF100E26A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C609F7B81CAEEFF100E26A42 /* Python_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C609F7BA1CAEEFF100E26A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C609F7C31CAEEFF100E26A42 /* Python_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C609F7B51CAEEFF100E26A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C609F79E1CAEEFF100E26A42 /* Python Quiz */;
+			targetProxy = C609F7B41CAEEFF100E26A42 /* PBXContainerItemProxy */;
+		};
+		C609F7C01CAEEFF100E26A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C609F79E1CAEEFF100E26A42 /* Python Quiz */;
+			targetProxy = C609F7BF1CAEEFF100E26A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C609F7A61CAEEFF100E26A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C609F7A71CAEEFF100E26A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C609F7AB1CAEEFF100E26A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C609F7AC1CAEEFF100E26A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C609F7C51CAEEFF100E26A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C609F7C61CAEEFF100E26A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C609F7C81CAEEFF100E26A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Python Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlt04.Python-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C609F7C91CAEEFF100E26A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Python Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlt04.Python-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C609F7CB1CAEEFF100E26A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Python QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlt04.Python-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Python Quiz.app/Python Quiz";
+			};
+			name = Debug;
+		};
+		C609F7CC1CAEEFF100E26A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Python QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlt04.Python-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Python Quiz.app/Python Quiz";
+			};
+			name = Release;
+		};
+		C609F7CE1CAEEFF100E26A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Python QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlt04.Python-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Python Quiz";
+			};
+			name = Debug;
+		};
+		C609F7CF1CAEEFF100E26A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Python QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlt04.Python-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Python Quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C609F79A1CAEEFF100E26A42 /* Build configuration list for PBXProject "Python Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C609F7C51CAEEFF100E26A42 /* Debug */,
+				C609F7C61CAEEFF100E26A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C609F7C71CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C609F7C81CAEEFF100E26A42 /* Debug */,
+				C609F7C91CAEEFF100E26A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C609F7CA1CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C609F7CB1CAEEFF100E26A42 /* Debug */,
+				C609F7CC1CAEEFF100E26A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C609F7CD1CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C609F7CE1CAEEFF100E26A42 /* Debug */,
+				C609F7CF1CAEEFF100E26A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C609F7971CAEEFF100E26A42 /* Project object */;
+}
