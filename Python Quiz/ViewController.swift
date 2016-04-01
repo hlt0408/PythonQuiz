@@ -10,16 +10,55 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var question: UILabel!
+    @IBOutlet weak var input: UITextField!
+    
+    @IBOutlet weak var response: UILabel!
+    
+    @IBOutlet weak var submit: UIButton!
+    
+    @IBOutlet weak var next: UIButton!
+    
+    var correctAnswer = String();
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        NSLog("hello")
+        displayQuestion()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func displayQuestion() {
+        question.text = "What is 1 + 1?"
+        correctAnswer = "2"
+        hideResponse()
+    }
+    
+    func hideResponse() {
+        response.hidden = true
+    }
+    
+    func showResponse() {
+        response.hidden = false
+    }
 
+    @IBAction func submitaction(sender: AnyObject) {
+        let inputText = input.text;
+        if inputText == correctAnswer {
+            response.text = "Correct answer!"
+        } else {
+            response.text = "Wrong answer"
+        }
+        showResponse()
+    }
+    
+    
 
 }
 
