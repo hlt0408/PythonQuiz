@@ -485,6 +485,7 @@
 				C609F7C91CAEEFF100E26A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C609F7CA1CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +494,7 @@
 				C609F7CC1CAEEFF100E26A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C609F7CD1CAEEFF100E26A42 /* Build configuration list for PBXNativeTarget "Python QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +503,7 @@
 				C609F7CF1CAEEFF100E26A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
