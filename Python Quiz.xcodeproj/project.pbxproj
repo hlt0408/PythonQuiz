@@ -14,6 +14,7 @@
 		C609F7AD1CAEEFF100E26A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C609F7AB1CAEEFF100E26A42 /* LaunchScreen.storyboard */; };
 		C609F7B81CAEEFF100E26A42 /* Python_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C609F7B71CAEEFF100E26A42 /* Python_QuizTests.swift */; };
 		C609F7C31CAEEFF100E26A42 /* Python_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C609F7C21CAEEFF100E26A42 /* Python_QuizUITests.swift */; };
+		C661CDEE1CCD11CD000F6D4D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661CDED1CCD11CD000F6D4D /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C609F7BE1CAEEFF100E26A42 /* Python QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Python QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C609F7C21CAEEFF100E26A42 /* Python_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Python_QuizUITests.swift; sourceTree = "<group>"; };
 		C609F7C41CAEEFF100E26A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C661CDED1CCD11CD000F6D4D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C609F7A21CAEEFF100E26A42 /* AppDelegate.swift */,
+				C661CDED1CCD11CD000F6D4D /* SwiftyJSON.swift */,
 				C609F7A41CAEEFF100E26A42 /* ViewController.swift */,
 				C609F7A61CAEEFF100E26A42 /* Main.storyboard */,
 				C609F7A91CAEEFF100E26A42 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C661CDEE1CCD11CD000F6D4D /* SwiftyJSON.swift in Sources */,
 				C609F7A51CAEEFF100E26A42 /* ViewController.swift in Sources */,
 				C609F7A31CAEEFF100E26A42 /* AppDelegate.swift in Sources */,
 			);
